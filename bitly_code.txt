@@ -1,0 +1,18 @@
+function url_shortner($long_url){
+		  $url = "http://api.bit.ly/shorten?version=2.0.1&longUrl=$long_url&login=onlyfortest&apiKey=R_9c83b6c47cf4a6bfa8796ecd71e39267";	
+		  $curl = curl_init();
+		  curl_setopt($curl, CURLOPT_URL, $url); 						//URL to connect to
+		  curl_setopt($curl, CURLOPT_GET, 1); 							//Use GET method
+		  curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC); 		//Use basic authentication
+		  curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false); 			//Do not check SSL certificate (but use SSL of course), live dangerously!
+		  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 				//Return the result as string
+		   
+		  $json = new Services_JSON();
+		  $output = $json->decode(curl_exec($curl));
+		  foreach($output->results as $rec){
+			 $a = $rec->shortUrl;
+		  }
+		  return($a);
+		  curl_close($curl);
+		  
+}

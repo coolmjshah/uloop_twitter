@@ -1,0 +1,37 @@
+44.979031::-93.264931::MN@ kensykora
+
+Warning: file_get_contents(http://local.yahooapis.com/MapsService/V1/geocode?appid=kt6xdhrV34EYXhz0AlGnqezYEsBmNKKUbFLWnSzWZxUL3lRJOk5LHs_glsdhnVXBuPs3zTY--&location=/'Virginia+Beach/'&output=php): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\project\project1\functions.php on line 161
+44.979031::-93.264931::MN@ file_cabinet
+35.598461::-82.553139::NC@ Rent_Asheville
+40.714550::-74.007124::NY@ roshanatusa
+39.952251::-75.162369::PA@ stephanieyee
+39.952270::-75.162369::PA@ coreyhulse
+39.952270::-75.162369::PA@ Ginspooper
+40.842781::-74.022400::NJ@ buckInyc
+29.460810::-95.050484::TX@ Kathlaen
+35.598461::-82.553139::NC@ Rent_Asheville
+40.842781::-74.022400::NJ@ shivasdiva
+42.592972::-82.395027::ON@ travelchic87
+40.142780::-74.726723::NJ@ mwz24
+42.592972::-82.395027::ON@ travelchic87
+38.823399::-75.923759::MD@ TheNoter
+47.603561::-122.329437::WA@ AlleeByDefault
+35.598461::-82.553139::NC@ Rent_Asheville
+42.163891::-71.717941::MA@ LizPW
+40.842781::-74.022400::NJ@ ThisguyNYC
+41.490681::-73.055267::CT@ jonwilks
+40.842781::-74.022400::NJ@ MinaMeow
+
+Warning: file_get_contents(http://local.yahooapis.com/MapsService/V1/geocode?appid=kt6xdhrV34EYXhz0AlGnqezYEsBmNKKUbFLWnSzWZxUL3lRJOk5LHs_glsdhnVXBuPs3zTY--&location=/'Indiana+and+Washington+DC'/&output=php): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\project\project1\functions.php on line 161
+40.842781::-74.022400::NJ@ audaciaray
+39.906849::-76.658592::PA@ markallshouse
+40.994640::-77.604507::PA@ thefounder
+40.842781::-74.022400::NJ@ jazzncy
+47.603580::-122.329454::WA@ dfy
+30.723780::-95.552170::TX@ KingzHeart
+39.766201::-86.441254::IN@ rjfilkens
+34.751888::-92.131348::AR@ doctormud
+40.842781::-74.022400::NJ@ juliortega
+42.554344::-77.472275::NY@ weikeld
